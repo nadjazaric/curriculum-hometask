@@ -118,8 +118,8 @@ The design of the blog should be modern, minimalistic, and responsive.
 There's tons of further ideas you could add to your blog if you have more time and want to make the project even cooler.
 
 * Provide users an option to delete the comment.
-* If there are more then 5 comments make a pagination.
-* Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
+* Enable user an option to choose their user image (avatar). This will require adding nore avatar images to 'img' folder OR Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
+  * Add search option to table of recent comments. User should input a search term in input field and search for that term in comment content.
   
 
 
