@@ -66,16 +66,16 @@ For each comment, following information is shown on the page:
   - Date
   - Comment content 
 
-You should first prepare the HTML tags and then use Jinja2 to pass in the values.  
+You should first prepare the HTML tags and then use Jinja2 to pass in the values.
+Make sure the comment list is given in render_template() function.
 
 ### Create recent.html
  
 You should have everything you need for the recent.html page! Make sure that header, footer and main section are the same as in home.html and then create a table to show: ordinal number, user name, comment content and date.
 
-If the post does not have any comments yet, make sure to print the "No comments to show"
+If the post does not have any comments yet, make sure to print the "No comments to show" message.
 
-
-### Handle selecting with JavaScript
+### Prevent potential spam
 
 The goal of your JS code is to add and remove the `selected` class from different gallery items when clicked, so that a different item is styled as the 'selected' item.
 
