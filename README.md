@@ -93,17 +93,11 @@ JavaScript is new and tricky! Feel free to ask for help with this part of the pr
 
 ## Expected Results
 
-Every content gallery site will look different, but here are some examples that demonstrate the feature in question:
-
-* An [example of an image gallery](https://mdn.github.io/learning-area/javascript/building-blocks/gallery/) from MDN, and [instructions on how to build it](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery)
-* As linked above, here's [Unsplash's search result page](https://unsplash.com/s/photos/puppy)
-
 You probably have a news blog you read every day or an account on at least one social network like Facebook, Instagram, YouTube or Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
 
 - [Facebook](shorturl.at/afBKU)
 - [Linkedin](shorturl.at/deEM9)
 - [Blog](https://yyj.be/mfbSd) (scroll to bottom to see the comment section)
-
 
 The design of the blog should be modern, minimalistic, and responsive.
 
