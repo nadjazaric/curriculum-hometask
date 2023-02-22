@@ -68,6 +68,10 @@ For each comment, the following information is shown on the page:
 You should first prepare the HTML tags and then use Jinja2 to pass in the values.
 Make sure the comment list is given in render_template() function.
 
+### Count comments
+
+Total number of comments should be shown next to the comment icon.
+
 ### Create recent.html
  
 You should have everything you need for the recent.html page! Make sure that header, footer, and main section are the same as in home.html, and then create a table to show: the ordinal number, user's name, comment content, and date.
