@@ -21,48 +21,47 @@ The design of the blog should be modern, minimalistic, and responsive.
 
 ## Starter Code
 
-As you have succesfully completed the Web foundation course, you are expected to have mastered HTML and CSS, and that's is why we wont focus on these technologies that much. In this regard in the strater code you will found:
+As you have completed the Web foundation course, you are expected to have mastered HTML and CSS, and that's why we won't focus on these technologies that much. In this regard in the starter code you will find:
 
 - home.html with the majority of the code written
 - style.css with the majority of the code written
-- the 'css' and 'webfonts' folders with fontawesome files that are required in order to use fa-icons for like and comment action.
+- the 'CSS' and 'webfonts' folders with font awesome files that are required to use fa-icons for like and comment action.
 - spam.json files with the list of spam words
 - img folder with all the images you will need
 
-The rest of the files like script.js and app.py are (mostly) empty. Feel free to add other files (such as
-recent.html) as you build out the blog.
+The rest of the files like script.js and app.py are (mostly) empty. Feel free to add other files (such as recent.html) as you build out the blog.
 
 ## Steps
 
 ### Wire up all the files
 
-Make sure that all of your html-css-js-img files are linked and connected.
-Remember, ,css, .js and images are static files, so it is recommended to use url_for() function to handle them.
+Make sure that all of your html, css, js and img files are linked and connected.
+Remember, .css, .js and images are static files, so it is recommended to use url_for() function to handle them.
 
 ### Render the homepage
 
 In the app.py you should write a home() function to render a homepage in route "/"
-Take some time and get familiar with the existing code, use inspect element feature to see the already build blocks on page, and understand its layout.
-At this point the interactions won't work, but it will have content!
+Take some time and get familiar with the existing code, use inspect element feature to see the already build blocks on the page, and understand its layout.
+At this point, the interactions won't work, but it will have content!
 
 ### Hands on Javascript
 
-- To make a comment users have to click on comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
-- Users can like a post. The post already has 15 likes. By clicking on the heart icon, user increases the number of likes by 1. User can like a post as many time he/she wants. 
+- To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
+- Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
 ### Add comments 
 To add a comment user should enter his/her name and the content in the form fields, and click the Add comment button.
   
-- Extend the def home() function and write code to request users' input from form.
-- Each comment is saved as a item in Python list.
-- Don't forget to add a post date to each comment. Post date should be written in format '%Y-%m-%d'
+- Extend the def home() function and write code to request users' input from a form.
+- Each comment is saved as an item in the Python list.
+- Don't forget to add a post date to each comment. Post date should be written in the format '%Y-%m-%d'
 
 ### Show recent comments on homepage
   
-For each comment, following information is shown on the page:
+For each comment, the following information is shown on the page:
   - User profile default icon
   - User name
-  - Comment title (first 20 characters of the comment content)
+  - Comment Title (first 20 characters of the comment content)
   - Date
   - Comment content 
 
@@ -71,18 +70,18 @@ Make sure the comment list is given in render_template() function.
 
 ### Create recent.html
  
-You should have everything you need for the recent.html page! Make sure that header, footer and main section are the same as in home.html and then create a table to show: ordinal number, user name, comment content and date.
+You should have everything you need for the recent.html page! Make sure that header, footer, and main section are the same as in home.html, and then create a table to show: the ordinal number, user's name, comment content, and date.
 
-If the post does not have any comments yet, make sure to print the "No comments to show" message.
+If the post does not have any comments yet, print the "No comments to show" message.
 
 ### Write the spam checker
   
-The list of potential spam words are saved in the spam.json file.
+The list of potential spam words is saved in the spam.json file.
   
-Your job is to open the file, list the phrases, and check if comment content containts any off these words.
+Your job is to open the file, list the phrases, and check if the comment content contains any of these words.
 If it does, the comment is rejected.
 The program should also print the response in a form of <p> "Message looks like spam. Please rephrase it" </p>.
-Help user understand what he did wrong by listing all the suspicious words that should not show up in comment. (list the words as an unordered list).
+Help the user understand what he did wrong by listing all the suspicious words that should not show up in a comment. (list the words as an unordered list).
   
 **Hints**:
 
