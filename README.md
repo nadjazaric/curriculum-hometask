@@ -14,7 +14,7 @@ You are also supposed to have a counter of comments.
 
 Each post can be liked, so make sure you count the likes too.
 
-Finally, we don't want any spam content in the comments, so, building a funtion that will prevent posting such content is of crucial importance for making a safe and trusted website.
+Finaly, you should protect your blog from spam and detect spam triggers. Spam trigger words are keywords or phrases that web providers see as red flags. You’ll often find these words in emails that people mark as spam. You will need to create a spam filter that will catch suspicious words and phrases associated with scams, gimmicks, promises, free gifts and similar. Building a funtion that will prevent posting such content is of crucial importance for making a safe and trusted website.
 
 Building these features require you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
 The design of the blog should be modern, minimalistic, and responsive.
@@ -76,23 +76,14 @@ You should have everything you need for the recent.html page! Make sure that hea
 If the post does not have any comments yet, make sure to print the "No comments to show" message.
 
 ### Write the spam checker
-
-Spam trigger words are keywords or phrases that web providers see as red flags. You’ll often find these words in emails that people mark as spam.
-Spam filters catch suspicious words and phrases associated with scams, gimmicks, promises, free gifts and similar.
   
 The list of potential spam words are saved in the spam.json file.
   
+Your job is to open the file, list the phrases, and check if comment content containts any off these words.
+If it does, the comment is rejected.
+The program should also print the response in a form of <p> "Message looks like spam. Please rephrase it" </p>.
+Help user understand what he did wrong by listing all the suspicious words that should not show up in comment. (list the words as an unordered list).
   
-The goal of your JS code is to add and remove the `selected` class from different gallery items when clicked, so that a different item is styled as the 'selected' item.
-
-First, add JavaScript to listen for a click on an item. When the item is clicked, run `console.log("clicked")` so that you can tell that the item was clicked. Test this code.
-
-Update the code in your event handler to change which item is selected. It should remove the `selected` class from the currently selected element, and add the `selected` class to the element that was clicked.
-
-Once you have one gallery item selecting on click, you can add the same event listener to the rest of your items.
-
-Test that clicking on an item makes it the selected element, and unselects whichever element was selected before.
-
 **Hints**:
 
 - You can find the currently selected element with `document.querySelector('.selected')`
