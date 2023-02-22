@@ -1,6 +1,6 @@
 # Project: Kibo Blog
 
-Blogs are regularly updated websites that provide insight into a certain topic. At their inception, blogs were simply an online diary where people could keep a log about their daily lives on the web. They have since morphed into an essential forum for individuals and businesses alike to share information and updates. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform unto themselves.
+Blogs are regularly updated websites that provide insight into a certain topic. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform unto themselves.
 
 In this project, you'll build a Blog Post page. The focus of the project is set arround interaction with the post - comment, like, and **share**.
 
