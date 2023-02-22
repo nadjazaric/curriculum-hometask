@@ -78,6 +78,8 @@ You should have everything you need for the recent.html page! Make sure that hea
 
 If the post does not have any comments yet, print the "No comments to show" message.
 
+You should also add some css style to make your table look modern.
+
 ### Write the spam checker
   
 The list of potential spam words is saved in the spam.json file.
@@ -107,14 +109,7 @@ JavaScript is new and tricky! Feel free to ask for help with this part of the pr
 
 ### Recent comments page
 
-![recent filter]
-
-
-You probably have a news blog you read every day or an account on at least one social network like Facebook, Instagram, YouTube or Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
-
-- [Facebook](shorturl.at/afBKU)
-- [Linkedin](shorturl.at/deEM9)
-- [Blog](https://yyj.be/mfbSd) (scroll to bottom to see the comment section)
+![recent filter](https://github.com/nadjazaric/curriculum-hometask/blob/main/Recent%20comments.png?raw=true)
 
 The design of the blog should be modern, minimalistic, and responsive.
 
