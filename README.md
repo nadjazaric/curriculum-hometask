@@ -21,9 +21,11 @@ The design of the blog should be modern, minimalistic, and responsive.
 
 ## Starter Code
 
-There are (mostly) empty files index.html, style.css, and script.js wired
+There are (mostly) empty files index.html, style.css, script.js, app.py wired
 together for you to begin your project. Feel free to add other files (such as
-images) as you build out the gallery.
+recent.html) as you build out the blog.
+
+In the 'css' and 'webfonts' folders you will find fontawesome files that are required in order to use fa-icons for like and comment action. They are already linked to the index.html for you. 
 
 ## Steps
 
