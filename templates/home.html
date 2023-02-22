@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kibo Blog</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}" />
+  <link href="/static/css/fontawesome.css" rel="stylesheet">
+  <link href="/static/css/brands.css" rel="stylesheet">
+  <link href="/static/css/solid.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar__brand">
+      <img class="navbar__logo" src="/static/logo-kibo.svg" alt="The Kibo logo" />
+    </div>
+    <ul class="navbar__navigation">
+      <li class="navbar__navigation-item">
+        <a href="/" class="navbar__link">Blog</a>
+      </li>
+      <li class="navbar__navigation-item">
+        <a href="/recent" class="navbar__link">Recent</a>
+      </li>
+    </ul>
+  </header>
+  <main class="main">
+    <section>
+      <h1>Python programming</h1>
+      <div class="blog">
+        <p> Did you know that YouTube, one of the world’s
+          largest video sharing platforms, is largely written in Python?🤔
+          Whether you want a career in data science, machine learning
+          or artificial intelligence, learning the fundamentals of programming
+          in Python is a great place to start.
+          <img src="static/img/python.jpg" style="width:500px" />
+        </p>
+        <p> Apply to join the next cohort of the Future Proof with Python
+          class where you will learn Python programming fundamentals with
+          a thriving community across the African continent, build projects,
+          and meet with industry professionals.</p>
+        <p> The next cohort will run from Feb 13 - Mar 17 and is completely FREE.</p>
+        
+        <section class="social">
+          <span class="noLikes"> <i class="fa-regular fa-heart"></i><b> 15 </b> </span>
+          <span class="noComments"> <i class="fa-regular fa-comment"></i> <a> {{ entries|length }}</a> </span>
+        </section>
+       
+        <!-- TODO flash message  is shown  here
+        as well as the unordered list of spam words-->
+
+    </section>
+
+    <section class="addComment">
+      <h2>Add new comment</h2>
+      <form class="form" method="POST">
+        <p class="form__input">
+          <label for="userName" class="form__label">Your name:</label>
+          <input type="text" name="userName" id="userName" class="form_input" />
+          <label for="comment" class="form__label">Entry comment:</label>
+          <textarea name="content" id="comment" class="form__textarea"></textarea>
+        </p>
+        <button type="submit" class="form__submit">Add comment</button>
+      </form>
+
+    </section>
+
+
+    <section>
+      <h2>Recent comments</h2>
+      <!-- TODO
+        use <article> tag and/or <div> to show
+        -  user image and name in <p>
+        -  comment title in h3
+        -  comment post date in <time>
+        -  comment content in p
+      -->
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <section class="left">
+        <a class="footer__item">Made by Your name</a>
+      </section>
+      <div class="footer__column">
+        <span class="footer__item" href="#">228 Park Avenue South, New York, NY</span>
+        <span class="footer__item"> hello@kibo.school</span>
+        <span class="footer__item"> (+1)-833-984-1991</span>
+      </div>
+      </section>
+    </div>
+  </footer>
+
+</body>
+</html>
