@@ -36,7 +36,8 @@ recent.html) as you build out the blog.
 
 ### Wire up all the files
 
-Make sure that all of your html-css-js files are linked and connected.
+Make sure that all of your html-css-js-img files are linked and connected.
+Remember, ,css, .js and images are static files, so it is recommended to use url_for() function to handle them.
 
 ### Render the homepage
 
