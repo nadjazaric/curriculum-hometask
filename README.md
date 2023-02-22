@@ -10,7 +10,7 @@ As in any social network, comments section usually shows: content of the comment
 
 The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment, share) and comment section.
 
-I probably have some favourite news blog your read or an account on at least one social network like Facebook, Instagram, YouTube ot Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
+You probably have some favourite news blog your read or an account on at least one social network like Facebook, Instagram, YouTube ot Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
 
 - [Facebook](shorturl.at/afBKU)
 - [Linkedin](shorturl.at/deEM9)
