@@ -97,7 +97,18 @@ JavaScript is new and tricky! Feel free to ask for help with this part of the pr
 
 ## Expected Results
 
+### Homepage with open comment section
+
 ![Home page with open add comments](https://github.com/nadjazaric/curriculum-hometask/blob/main/Homepage-full%20content.png?raw=true)
+
+### Homepage with spam filter warning
+
+![spam filter](https://github.com/nadjazaric/curriculum-hometask/blob/main/Homepage%20with%20warning%20for%20spam.png?raw=true)
+
+### Recent comments page
+
+![recent filter]
+
 
 You probably have a news blog you read every day or an account on at least one social network like Facebook, Instagram, YouTube or Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
 
