@@ -2,7 +2,7 @@
 
 Blogs are regularly updated websites that provide insight into a certain topic. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform unto themselves.
 
-In this project, you'll build a Blog Post page. The focus of the project is set arround interaction with the post - comment, like, and **share**.
+In this project, you'll build a Blog Post page. The focus of the project is on post interaction, specifically comment and like.
 
 As in any social network, comments section usually shows: content of the comment, post date and user information.
 
