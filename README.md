@@ -57,7 +57,7 @@ To add a comment user should enter his/her name and the content in the form fiel
 - Each comment is saved as a item in Python list.
 - Don't forget to add a post date to each comment. Post date should be written in format '%Y-%m-%d'
 
-### Show comments on homepage
+### Show recent comments on homepage
   
 For each comment, following information is shown on the page:
   - User profile default icon
@@ -67,6 +67,12 @@ For each comment, following information is shown on the page:
   - Comment content 
 
 You should first prepare the HTML tags and then use Jinja2 to pass in the values.  
+
+### Create recent.html
+ 
+You should have everything you need for the recent.html page! Make sure that header, footer and main section are the same as in home.html and then create a table to show: ordinal number, user name, comment content and date.
+
+If the post does not have any comments yet, make sure to print the "No comments to show"
 
 
 ### Handle selecting with JavaScript
