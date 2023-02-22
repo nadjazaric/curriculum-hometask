@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recent comments</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+  <link rel="stylesheet" type= "text/css" 
+  href="{{url_for('static', filename='css/style.css')}}" />
+
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar_brand">
+      <img class="navbar_logo" src="/static/logo-kibo.svg" alt="The Kibo logo" />
+    </div>
+    <ul class="navbar_navigation">
+      <li class="navbar_navigation-item">
+        <a href="/" class="navbar_link">Blog</a>
+      </li>
+      <li class="navbar_navigation-item">
+        <a href="/recent" class="navbar_link">Recent</a>
+      </li>
+    </ul>
+  </header>
+  <main class="main">
+    <section>
+      <h1>Recent comments</h1>
+      
+    <section>
+      <h1>Recent comments</h1>
+     
+     
+      {% if  comments[0] is defined  %}
+      <table> 
+        {% set count = [] %}
+        <tr>
+          <th> Number </th>
+          <th> User name </th>
+          <th> Comment</th>
+          <th> Date</th>
+        </tr>
+        {% for comment in comments %}
+        {% set __ = count.append(1) %} 
+          <tr>
+            <td class="comment_title"> {{ count|length }} </td>
+            <td class="comment_name">{{ comment[2] }}</td>
+
+            <td class="comment_date" datetime="{{ comment[1] }}">• {{ comment[1] }}</td>
+                    </tr>
+          
+      {% endfor %}
+      {% else %}
+      <p> There are no comments on this post at the moment</p>
+
+      {%endif%}
+
+    </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer_content">
+      <section class="left">
+        <a class="footer_item">Made by Your name</a>
+      </section>
+  
+        <div class="footer_column">
+          <span class="footer_item" href="#">228 Park Avenue South, New York, NY</span>
+          <span class="footer_item">   hello@kibo.school</span>
+          <span class="footer_item">       (+1)-833-984-1991</span>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
