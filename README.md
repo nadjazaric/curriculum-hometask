@@ -1,22 +1,22 @@
 # Project: Kibo Blog
 
-Blogs are regularly updated websites that provide insight into a certain topic. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform unto themselves.
+Blogs are regularly updated websites that provide insight into a certain topic. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform for themselves.
 
-In this project, you'll build a Blog Post page. The focus of the project is on post interaction, specifically comment and like.
+In this project, you'll build a Blog Post page. The focus of the project is on post-interaction, specifically comments and like.
 
-As in any social network, comments section usually include: content of the comment, post date and user information.
+As in any social network, the comments section usually includes the content of the comment, the post date, and user information.
 
 ## Your Task
 
-The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment) and comment section.
-Your task is to design an "Add comment" block for a post, and to show all comments on a "Recent comments" page.
+The basic design of a Blog Post page includes the Post title, Post content, interaction section (like, comment), and comment section.
+Your task is to design an "Add comment" block for a post and to show all comments on a "Recent comments" page.
 You are also supposed to have a counter of comments.
 
 Each post can be liked, so make sure you count the likes too.
 
-Finaly, you should protect your blog from spam and detect spam triggers. Spam trigger words are keywords or phrases that web providers see as red flags. You’ll often find these words in emails that people mark as spam. You will need to create a spam filter that will catch suspicious words and phrases associated with scams, gimmicks, promises, free gifts and similar. Building a funtion that will prevent posting such content is of crucial importance for making a safe and trusted website.
+Finally, you should protect your blog from spam and detect spam triggers. Spam trigger words are keywords or phrases that web providers see as red flags. You’ll often find these words in emails that people mark as spam. You will need to create a spam filter that will catch suspicious words and phrases associated with scams, gimmicks, promises, gifts, and similar. Building a function that will prevent posting such content is of crucial importance for making a safe and trusted website.
 
-Building these features require you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
+Building these features requires you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
 The design of the blog should be modern, minimalistic, and responsive.
 
 ## Starter Code
