@@ -45,15 +45,11 @@ In the app.py you should write a home() function to render a homepage in route "
 Take some time and get familiar with the existing code, use inspect element feature to see the already build blocks on page, and understand its layout.
 At this point the interactions won't work, but it will have content!
 
-### Style the selected element
+### Hands on Javascript
 
-Now you'll start working in `style.css` in addition to `index.html`.
+- To make a comment users have to click on comment icon which will reveal the comment section. Create a function that will display the section on click.
+- Users can like a post. The post has already 15 likes. By clicking on the heart icon, user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
-Add the class `selected` to one of the elements, and use the CSS selector `.selected` to start your styling. Later on, you'll add and remove this class with JavaScript.
-
-Change the size and position of the element and whatever content is associated with it. The selected item should end up with a different layout, positioning, and other styles from the other items.
-
-Be sure that the element with the selected class gets styled correctly no matter where it is in the HTML. Try manually changing which item has the class 'selected' and confirming that the styles still work, no matter where the element is in your HTML.
 
 ### Style the gallery
 
