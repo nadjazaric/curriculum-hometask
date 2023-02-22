@@ -47,12 +47,16 @@ At this point the interactions won't work, but it will have content!
 
 ### Hands on Javascript
 
-- To make a comment users have to click on comment icon which will reveal the comment section. Create a function that will display the section on click.
-- Users can like a post. The post has already 15 likes. By clicking on the heart icon, user increases the number of likes by 1. User can like a post as many time he/she wants. 
+- To make a comment users have to click on comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
+- Users can like a post. The post already has 15 likes. By clicking on the heart icon, user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
+### Add comments
+  
+A comment consists of: user's name, content and post date.
+Post date is today in %Y-%m-%d format
+Comments are saved in Python list [].
 
-### Style the gallery
-
+Extend the def home() function by 
 Lay out the rest of the items as cards or list items.
 
 Usually, gallery items go below the selected item. They are often smaller, and arranged in a grid or list.
