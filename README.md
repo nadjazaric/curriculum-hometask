@@ -29,6 +29,12 @@ As you have completed the Web foundation course, you are expected to have master
 - spam.json files with the list of spam words
 - img folder with all the images you will need
 
+Start your code by running 
+
+```sh
+flask run
+```
+
 The rest of the files like script.js and app.py are (mostly) empty. Feel free to add other files (such as recent.html) as you build out the blog.
 
 ## Steps
