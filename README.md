@@ -75,8 +75,14 @@ You should have everything you need for the recent.html page! Make sure that hea
 
 If the post does not have any comments yet, make sure to print the "No comments to show" message.
 
-### Prevent potential spam
+### Write the spam checker
 
+Spam trigger words are keywords or phrases that web providers see as red flags. You’ll often find these words in emails that people mark as spam.
+Spam filters catch suspicious words and phrases associated with scams, gimmicks, promises, free gifts and similar.
+  
+The list of potential spam words are saved in the spam.json file.
+  
+  
 The goal of your JS code is to add and remove the `selected` class from different gallery items when clicked, so that a different item is styled as the 'selected' item.
 
 First, add JavaScript to listen for a click on an item. When the item is clicked, run `console.log("clicked")` so that you can tell that the item was clicked. Test this code.
