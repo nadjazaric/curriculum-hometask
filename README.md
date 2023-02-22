@@ -14,7 +14,7 @@ You are also supposed to have a counter of comments.
 
 Each post can be liked, so make sure you count the likes too.
 
-Finally, we don't want any spam content in the comments, so, building a funtion that will provide posting a spammy content is of crucical importance for making a safe and trusted website.
+Finally, we don't want any spam content in the comments, so, building a funtion that will prevent posting such content is of crucial importance for making a safe and trusted website.
 
 Building these features require you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
 The design of the blog should be modern, minimalistic, and responsive.
@@ -22,6 +22,7 @@ The design of the blog should be modern, minimalistic, and responsive.
 ## Starter Code
 
 As you have succesfully completed the Web foundation course, you are expected to have mastered HTML and CSS, and that's is why we wont focus on these technologies that much. In this regard in the strater code you will found:
+
 - home.html with the majority of the code written
 - style.css with the majority of the code written
 - the 'css' and 'webfonts' folders with fontawesome files that are required in order to use fa-icons for like and comment action.
@@ -35,15 +36,9 @@ recent.html) as you build out the blog.
 
 ### Wire up all the files
 
-Choose content for your gallery.
+Make sure that all of your html-css-js files are linked and connected.
 
-You can use images, videos, or audio files. Images are probably the easiest choice. Audio files may be the hardest, since you'll have to find and download them, and then figure out how to display them visually. Videos are a middle ground. They are fairly easy to find, but dealing with iframe embeds will likely be slightly more challenging than images.
-
-Whichever content you choose, be sure to find at least 6 items. That way, you'll have enough for a meaningful gallery.
-
-For images or audio, download the files and add them to the project, either at the top level or in a folder. For video, copy the iframe embed snippets that you'll need.
-
-### Add the content as HTML elements
+### Render the homepage
 
 Add the content you picked above as plain HTML elements in `index.html`.
 
