@@ -50,25 +50,24 @@ At this point the interactions won't work, but it will have content!
 - To make a comment users have to click on comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
 - Users can like a post. The post already has 15 likes. By clicking on the heart icon, user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
-### Add comments
-  
+### Add comments 
 To add a comment user should enter his/her name and the content in the form fields, and click the Add comment button.
   
 - Extend the def home() function and write code to request users' input from form.
 - Each comment is saved as a item in Python list.
 - Don't forget to add a post date to each comment. Post date should be written in format '%Y-%m-%d'
+
+### Show comments on homepage
   
-Lay out the rest of the items as cards or list items.
+For each comment, following information is shown on the page:
+  - User profile default icon
+  - User name
+  - Comment title (first 20 characters of the comment content)
+  - Date
+  - Comment content 
 
-Usually, gallery items go below the selected item. They are often smaller, and arranged in a grid or list.
+You should first prepare the HTML tags and then use Jinja2 to pass in the values.  
 
-Use the skills you learned about the box model and layout - add margins and padding, and maybe a border. Cards often look nice with a `border-radius` set.
-
-Style the text content so that they look like titles, tags, etc. You might look back at past projects where you've styled cards for ideas on some ways to do this. You may also hide some text content when an item is in the gallery, and only show it when the item is selected.
-
-Add a different background color for the gallery items and the background for the rest of the page, to help distinguish the items from the rest of the page.
-
-At this point, the page should look good, but it will be missing the interactivity.
 
 ### Handle selecting with JavaScript
 
