@@ -36,6 +36,7 @@ The rest of the files like script.js and app.py are (mostly) empty. Feel free to
 ### Wire up all the files
 
 Make sure that all of your html, css, js and img files are linked and connected.
+Handle them as a static files.
 Remember, .css, .js and images are static files, so it is recommended to use url_for() function to handle them.
 
 ### Render the homepage
@@ -91,11 +92,11 @@ Help the user understand what he did wrong by listing all the suspicious words t
   
 **Hints**:
 
-- You can find the currently selected element with `document.querySelector('.selected')`
-- You can use `element.classList.remove('selected')` and `element.classList.add('selected')` to add and remove the class
-- You can add an listener for click events to an element with `element.addEventListener('click', () => { console.log('clicked')})`
+- You can manipulate the style of an element with document.querySelector('').style property of DOM
+- Use strftime("%Y-%m-%d") metod to format the date
+- Requested data are sent with POST method, so make sure you check  if request.method == "POST"
+- Use Flask flash() method to show the spam warning. (https://rb.gy/zxfrov)
 
-JavaScript is new and tricky! Feel free to ask for help with this part of the project.
 
 ## Expected Results
 
@@ -115,12 +116,11 @@ The design of the blog should be modern, minimalistic, and responsive.
 
 ## Bonus Task
 
-There's tons of further ideas you could add to your gallery if you have more time and want to make the project even cooler.
+There's tons of further ideas you could add to your blog if you have more time and want to make the project even cooler.
 
-* Add more content. Galleries are more fun when there is more stuff to browse.
-* Style the cursor, hover state, and the gallery cards or list items to make the gallery more appealing.
-* Add a 'load more' button that shows more content. One way to do this is to have that content hidden at the start, then have the button remove a class that was hiding the content.
-* Style the focused item as a modal. See  https://codeshack.io/pure-css3-modal-example/ for a suggestion on how you could style this.
-* If you have videos or audio, play them when the item is focused, and stop playing when it gets unfocused.
+* Provide users an option to delete the comment.
+* If there are more then 5 comments make a pagination.
+* 
+
 
 There's tons more features that you could try to add, if you want. Be creative!
