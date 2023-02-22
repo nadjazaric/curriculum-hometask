@@ -1,14 +1,15 @@
 # Project: Kibo Blog
 
-Sites like Pinterest, YouTube, and SoundCloud are all about browsing content, and then 'zooming in' on a particular piece of content.
+Blogs are regularly updated websites that provide insight into a certain topic. At their inception, blogs were simply an online diary where people could keep a log about their daily lives on the web. They have since morphed into an essential forum for individuals and businesses alike to share information and updates. Much like social media platforms, blogs allow people to share their thoughts and experiences with others. Given the active comment sections, they enable people to interact with one another and build relationships based on shared interests. Essentially, blogs have become a social platform unto themselves.
 
-In this project, you'll build a content gallery - like Pinterest, without the ability to pin new items.
+In this project, you'll build a Blog Post page. The focus of the project is set arround interaction with the post - comment, like, and **share**.
 
-The core feature of a content gallery is that as you browse, you can 'focus' on one of the elements by clicking it. Focusing an element brings it front and center, makes it big, and distinguishes it from the rest of the gallery.
+As in any social network, comments section usually shows: content of the comment, post date and user information.
 
 ## Your Task
 
-Basic concept of blog is to post and have commentd.
+The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment, share) and comment section.
+
 The basic design of the content gallery is a grid or list of items. When you click on one of the items, it becomes 'focused'. The focused item moves to the top of the screen, becomes bigger, more information is shown about it, and overall, the styles make it more 'important' than the other content.
 
 You've probably seen lots of pages that are like this, but [Unsplash](https://unsplash.com/s/photos/puppy) is a nice example in case you want a refresher.
