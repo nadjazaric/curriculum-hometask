@@ -97,7 +97,6 @@ Help the user understand what he did wrong by listing all the suspicious words t
 - Requested data are sent with POST method, so make sure you check  if request.method == "POST"
 - Use Flask flash() method to show the spam warning. (https://rb.gy/zxfrov)
 
-
 ## Expected Results
 
 ### Homepage with open comment section
@@ -120,7 +119,8 @@ There's tons of further ideas you could add to your blog if you have more time a
 
 * Provide users an option to delete the comment.
 * If there are more then 5 comments make a pagination.
-* 
+* Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
+  
 
 
 There's tons more features that you could try to add, if you want. Be creative!
