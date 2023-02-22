@@ -119,8 +119,5 @@ There's tons of further ideas you could add to your blog if you have more time a
 
 * Provide users an option to delete the comment.
 * Enable user an option to choose their user image (avatar). This will require adding nore avatar images to 'img' folder OR Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
-  * Add search option to table of recent comments. User should input a search term in input field and search for that term in comment content.
+* Make your own bonus task! :) Add a functionality that will demonstrate your skill of using url parameters and placeholders in Flask. Be creative.
   
-
-
-There's tons more features that you could try to add, if you want. Be creative!
