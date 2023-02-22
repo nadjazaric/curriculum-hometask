@@ -40,13 +40,9 @@ Make sure that all of your html-css-js files are linked and connected.
 
 ### Render the homepage
 
-Add the content you picked above as plain HTML elements in `index.html`.
-
-For each of the items, add text content labeling the items, like titles, tags, and descriptions. You will probably find it helpful to group the item with the text in an enclosing `<div>`.
- 
-Also add a site title, a page description, and any other text content you want to include on the page.
-
-At this point, the site won't look very good, and the interactions won't work, but it will have content!
+In the app.py you should write a home() function to render a homepage in route "/"
+Take some time and get familiar with the existing code, use inspect element feature to see the already build blocks on page, and understand its layout.
+At this point the interactions won't work, but it will have content!
 
 ### Style the selected element
 
