@@ -10,11 +10,13 @@ As in any social network, comments section usually shows: content of the comment
 
 The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment, share) and comment section.
 
-The basic design of the content gallery is a grid or list of items. When you click on one of the items, it becomes 'focused'. The focused item moves to the top of the screen, becomes bigger, more information is shown about it, and overall, the styles make it more 'important' than the other content.
+I am sure you all have some favourite news blog your read or an account on at least one social netwrok like Facebook, Instagram, Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
+ 
 
 You've probably seen lots of pages that are like this, but [Unsplash](https://unsplash.com/s/photos/puppy) is a nice example in case you want a refresher.
 
-Building a complicated feature like this requires you to connect your HTML, CSS, and JavaScript skills. It's also much easier if you take the pieces step by step.
+Building these features require you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
+The design of the blog should be modern, minimalistic, and responsive.
 
 ## Starter Code
 
