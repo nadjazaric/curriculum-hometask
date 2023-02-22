@@ -52,11 +52,12 @@ At this point the interactions won't work, but it will have content!
 
 ### Add comments
   
-A comment consists of: user's name, content and post date.
-Post date is today in %Y-%m-%d format
-Comments are saved in Python list [].
-
-Extend the def home() function by 
+To add a comment user should enter his/her name and the content in the form fields, and click the Add comment button.
+  
+- Extend the def home() function and write code to request users' input from form.
+- Each comment is saved as a item in Python list.
+- Don't forget to add a post date to each comment. Post date should be written in format '%Y-%m-%d'
+  
 Lay out the rest of the items as cards or list items.
 
 Usually, gallery items go below the selected item. They are often smaller, and arranged in a grid or list.
