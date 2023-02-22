@@ -21,11 +21,14 @@ The design of the blog should be modern, minimalistic, and responsive.
 
 ## Starter Code
 
-There are (mostly) empty files index.html, style.css, script.js, app.py wired
-together for you to begin your project. Feel free to add other files (such as
-recent.html) as you build out the blog.
+As you have succesfully completed the Web foundation course, you are expected to have mastered HTML and CSS, and that's is why we wont focus on these technologies that much. In this regard in the strater code you will found:
+- home.html with (almost) the majority of the code written
+- style.css with (almost) the majority of the code written
+- the 'css' and 'webfonts' folders with fontawesome files that are required in order to use fa-icons for like and comment action.
+- spam.json files with the list of spam words
 
-In the 'css' and 'webfonts' folders you will find fontawesome files that are required in order to use fa-icons for like and comment action. They are already linked to the index.html for you. 
+The rest of the files like script.js and app.py are empty. Feel free to add other files (such as
+recent.html) as you build out the blog.
 
 ## Steps
 
