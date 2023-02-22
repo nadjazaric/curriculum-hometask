@@ -4,17 +4,17 @@ Blogs are regularly updated websites that provide insight into a certain topic. 
 
 In this project, you'll build a Blog Post page. The focus of the project is on post interaction, specifically comment and like.
 
-As in any social network, comments section usually shows: content of the comment, post date and user information.
+As in any social network, comments section usually include: content of the comment, post date and user information.
 
 ## Your Task
 
-The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment, share) and comment section.
+The basic design of a Blog Post page includes Post title, Post content, interaction section (like, comment) and comment section.
+Your task is to design an "Add comment" block for a post, and to show all comments on a "Recent comments" page.
+You are also supposed to have a counter of comments.
 
-You probably have a news blog you read every day or an account on at least one social network like Facebook, Instagram, YouTube or Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
+Each post can be liked, so make sure you count the likes too.
 
-- [Facebook](shorturl.at/afBKU)
-- [Linkedin](shorturl.at/deEM9)
-- [Blog](https://yyj.be/mfbSd) (scroll to bottom to see the comment section)
+Finally, we don't want any spam content in the comments, so, building a funtion that will provide posting a spammy content is of crucical importance for making a safe and trusted website.
 
 Building these features require you to apply both frontend (HTML, CSS, JavaScript) and backend (Python and Flask) skills.
 The design of the blog should be modern, minimalistic, and responsive.
@@ -22,17 +22,18 @@ The design of the blog should be modern, minimalistic, and responsive.
 ## Starter Code
 
 As you have succesfully completed the Web foundation course, you are expected to have mastered HTML and CSS, and that's is why we wont focus on these technologies that much. In this regard in the strater code you will found:
-- home.html with (almost) the majority of the code written
-- style.css with (almost) the majority of the code written
+- home.html with the majority of the code written
+- style.css with the majority of the code written
 - the 'css' and 'webfonts' folders with fontawesome files that are required in order to use fa-icons for like and comment action.
 - spam.json files with the list of spam words
+- img folder with all the images you will need
 
-The rest of the files like script.js and app.py are empty. Feel free to add other files (such as
+The rest of the files like script.js and app.py are (mostly) empty. Feel free to add other files (such as
 recent.html) as you build out the blog.
 
 ## Steps
 
-### Choose Content
+### Wire up all the files
 
 Choose content for your gallery.
 
@@ -102,6 +103,15 @@ Every content gallery site will look different, but here are some examples that 
 
 * An [example of an image gallery](https://mdn.github.io/learning-area/javascript/building-blocks/gallery/) from MDN, and [instructions on how to build it](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery)
 * As linked above, here's [Unsplash's search result page](https://unsplash.com/s/photos/puppy)
+
+You probably have a news blog you read every day or an account on at least one social network like Facebook, Instagram, YouTube or Linkedin, so you are quite familiar with how interaction with content usually works. Just in case you have doubts, take a look at some of the examples here:
+
+- [Facebook](shorturl.at/afBKU)
+- [Linkedin](shorturl.at/deEM9)
+- [Blog](https://yyj.be/mfbSd) (scroll to bottom to see the comment section)
+
+
+The design of the blog should be modern, minimalistic, and responsive.
 
 ## Bonus Task
 
