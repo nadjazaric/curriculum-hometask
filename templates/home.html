@@ -5,11 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kibo Blog</title>
-  <link rel="stylesheet" href="/static/css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}" />
-  <link href="/static/css/fontawesome.css" rel="stylesheet">
-  <link href="/static/css/brands.css" rel="stylesheet">
-  <link href="/static/css/solid.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 </head>
@@ -47,7 +42,7 @@
         
         <section class="social">
           <span class="noLikes"> <i class="fa-regular fa-heart"></i><b> 15 </b> </span>
-          <span class="noComments"> <i class="fa-regular fa-comment"></i> <a> {{ entries|length }}</a> </span>
+          <span class="noComments"> <i class="fa-regular fa-comment"></i> <a></a> </span>
         </section>
        
         <!-- TODO flash message  is shown  here
