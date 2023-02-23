@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kibo Blog</title>
-  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="stylesheet" href="../static/css/style.css">
   <link rel="stylesheet" href="/static/css/fontawesome.css">
   <link rel="stylesheet" href="/static/css/brands.css">
   <link rel="stylesheet" href="/static/css/solid.css">
@@ -42,8 +42,9 @@
         <br /><br />The next cohort will run from Feb 13 - Mar 17 and is completely FREE.
       </p>
       <section class="social">
-        <span class="noLikes"> <i class="fa-regular fa-heart"></i><b> 15 </b> </span>
-        <span class="noComments"> <i class="fa-regular fa-comment"></i> <a> {{ comments|length }}</a> </span>
+        <span class="noLikes" onclick="countLikes()"> <i class="fa-regular fa-heart"></i><b> 15 </b> </span>
+
+        <span class="noComments" onclick="revealComments()"> <i class="fa-regular fa-comment"></i> <a> {{ comments|length }}</a> </span>
       </section>
       {% for message in get_flashed_messages() %}
       <h2 style="color:red">{{ message }}</h2>
