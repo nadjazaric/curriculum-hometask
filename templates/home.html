@@ -77,12 +77,12 @@
       {% for comment in comments %}
       <article class="comment">
         <div>
-          <p> <img src="static/img/user.png"> <span class="user_name"> {{ comment[2] }}</span></p>
-          <h3 class="comment_title">{{ comment[0] | truncate(15, true) }}</h3>
-          <time class="comment_date" datetime="{{ comment[1] }}">• {{ comment[1] }}</time>
+          <p> <img src="static/img/user.png"> <span class="user_name"> {{ comment[0] }}</span></p>
+          <h3 class="comment_title">{{ comment[1] | truncate(20, true) }}</h3>
+          <time class="comment_date" datetime="{{ comment[1] }}">• {{ comment[2] }}</time>
         </div>
         <p class="comment_content">
-          {{ comment[0] }}
+          {{ comment[1] }}
         </p>
       </article>
       {% endfor %}
