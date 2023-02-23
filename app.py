@@ -7,9 +7,11 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 comments = []
 formatted_date = datetime.datetime.today().strftime("%Y-%m-%d")
-filename = os.path.join(app.static_folder, 'data', 'spam.json')
-with open(filename) as test_file:
-    spamData = json.load(test_file)
+spamWord = os.path.join(app.static_folder, 'data', 'spam.json')
+commentsJson = os.path.join(app.static_folder, 'data', 'comments.json')
+
+with open(spamWord) as spamWord:
+    spamData = json.load(spamWord)
 
 @app.route("/", methods=["GET", "POST"])
 def home():
@@ -20,7 +22,9 @@ def home():
             if i in comment_content:
                 flash('Your message looks like spam. Please rephrase it')
                 return redirect(url_for('home'))
-        comments.append((comment_content, formatted_date, user_name))
+        comments.append((user_name, comment_content, formatted_date))
+        with open(commentsJson, 'w') as commentFile:
+                json.dump(comments, commentFile)
     return render_template("home.html", comments=comments, spamData=spamData)
 
 
@@ -28,3 +32,4 @@ def home():
 def recentPage():
     return render_template("recent.html", comments=comments)
 
+app.run()
