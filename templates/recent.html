@@ -10,7 +10,8 @@
 
 </head>
 <body>
-
+ 
+</div>
   <header class="navbar">
     <div class="navbar_brand">
       <img class="navbar_logo" src="/static/logo-kibo.svg" alt="The Kibo logo" />
@@ -29,34 +30,25 @@
       <h1>Recent comments</h1>
       
     <section>
-      <h1>Recent comments</h1>
-     
+      <div id="posts">
      
       {% if  comments[0] is defined  %}
-      <table> 
-        {% set count = [] %}
+      <table id="posts-table"> 
         <tr>
           <th> Number </th>
           <th> User name </th>
           <th> Comment</th>
           <th> Date</th>
         </tr>
-        {% for comment in comments %}
-        {% set __ = count.append(1) %} 
-          <tr>
-            <td class="comment_title"> {{ count|length }} </td>
-            <td class="comment_name">{{ comment[2] }}</td>
-
-            <td class="comment_date" datetime="{{ comment[1] }}">• {{ comment[1] }}</td>
-                    </tr>
-          
-      {% endfor %}
+        <tbody id="posts-tbody">
+       
+         </tbody>
       {% else %}
       <p> There are no comments on this post at the moment</p>
-
       {%endif%}
 
     </table>
+    </div>
     </section>
   </main>
   <footer class="footer">
@@ -73,5 +65,6 @@
       </section>
     </div>
   </footer>
+  <script src="static/js/script.js"></script>
 </body>
 </html>
