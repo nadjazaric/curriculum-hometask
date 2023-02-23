@@ -53,7 +53,9 @@ At this point, the interactions won't work, but it will have content!
 
 ### Hands on Javascript
 
-- To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
+- To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the ```sh
+<section class="addComment">
+```on click.
 - Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
 ### Add comments 
