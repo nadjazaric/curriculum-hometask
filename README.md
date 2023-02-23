@@ -54,10 +54,10 @@ At this point, the interactions won't work, but it will have content!
 ### Hands on Javascript
 
 - To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the section class="addComment"
-- Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. User can like a post as many time he/she wants. 
+- Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. Users can like a post as many time they want. 
 
 ### Add comments 
-To add a comment user should enter his/her name and the content in the form fields, and click the Add comment button.
+To add a comment users should enter their name and the content in the form fields, and click the Add comment button.
   
 - Extend the def home() function and write code to request users' input (name and comment content) from a form.
 - Each comment is saved as an item in the Python list.
@@ -66,14 +66,14 @@ To add a comment user should enter his/her name and the content in the form fiel
 
 ### Show recent comments on homepage
   
-For each comment, the following information is shown on the page:
+For each comment, the following information is shown on the Homepage:
   - User profile default icon
   - User name
   - Comment Title (first 20 characters of the comment content)
   - Date
   - Comment content 
 
-Comments should be listed from Pythons' list.
+Comments should be listed from Python's list.
 You should first prepare the HTML tags and then use Jinja2 to pass in the values.
 Make sure the comment list is given in render_template() function.
 
@@ -85,8 +85,8 @@ Total number of comments should be shown next to the comment icon.
   
 The list of potential spam words is saved in the spam.json file.
   
-Your job is to open the file, list the phrases, and check if the comment content contains any of these words.
-If it does, the comment is rejected.
+Your job is to open the file, list the phrases, and check if the comment content contains any of spam trigger words.
+If it does, the comment is rejected (not added).
 The program should also print the response in a form of <p> "Message looks like spam. Please rephrase it" </p>.
 Help the user understand what he did wrong by listing all the suspicious words that should not show up in a comment. (list the words as an unordered list).
 
@@ -96,7 +96,7 @@ You should have everything you need for the recent.html page! Make sure that hea
 
 Recent.html should list all comments in a table as: the ordinal number, user's name, comment content, and date.
 
--Use JavaScript to create table. Read comment data from JSON file and create table rows for each array object in json.
+- Use JavaScript to create table. Read comment data from comments.json file and create table rows for each array object in json.
 - If the post does not have any comments yet, print the "No comments to show" message.
 - You should also add some css style to make your table look modern.
 - Define funciton recentPage() to render the recent.html page in /recent route
