@@ -29,12 +29,6 @@ As you have completed the Web foundation course, you are expected to have master
 - spam.json files with the list of spam words
 - img folder with all the images you will need
 
-Start your code by running 
-
-```sh
-flask run
-```
-
 The rest of the files like script.js and app.py are (mostly) empty. Feel free to add other files (such as recent.html) as you build out the blog.
 
 ## Steps
@@ -53,27 +47,25 @@ At this point, the interactions won't work, but it will have content!
 
 ### Hands on Javascript
 
-- To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the section class="addComment"
-- Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. Users can like a post as many time they want. 
+- To comment users have to click on the comment icon which will reveal the comment section. Create a function that will display the <section class="addComment"> on click.
+- Users can like a post. The post already has 15 likes. By clicking on the heart icon, the user increases the number of likes by 1. User can like a post as many time he/she wants. 
 
 ### Add comments 
-To add a comment users should enter their name and the content in the form fields, and click the Add comment button.
+To add a comment user should enter his/her name and the content in the form fields, and click the Add comment button.
   
-- Extend the def home() function and write code to request users' input (name and comment content) from a form.
+- Extend the def home() function and write code to request users' input from a form.
 - Each comment is saved as an item in the Python list.
 - Don't forget to add a post date to each comment. Post date should be written in the format '%Y-%m-%d'
-- Save all comments in a json file. Locate the static folder and create a json file under data/comments.json
 
 ### Show recent comments on homepage
   
-For each comment, the following information is shown on the Homepage:
+For each comment, the following information is shown on the page:
   - User profile default icon
   - User name
   - Comment Title (first 20 characters of the comment content)
   - Date
   - Comment content 
 
-Comments should be listed from Python's list.
 You should first prepare the HTML tags and then use Jinja2 to pass in the values.
 Make sure the comment list is given in render_template() function.
 
@@ -81,34 +73,29 @@ Make sure the comment list is given in render_template() function.
 
 Total number of comments should be shown next to the comment icon.
 
+### Create recent.html
+ 
+You should have everything you need for the recent.html page! Make sure that header, footer, and main section are the same as in home.html, and then create a table to show: the ordinal number, user's name, comment content, and date.
+
+If the post does not have any comments yet, print the "No comments to show" message.
+
+You should also add some css style to make your table look modern.
+
 ### Write the spam checker
   
 The list of potential spam words is saved in the spam.json file.
   
-Your job is to open the file, list the phrases, and check if the comment content contains any of spam trigger words.
-If it does, the comment is rejected (not added).
+Your job is to open the file, list the phrases, and check if the comment content contains any of these words.
+If it does, the comment is rejected.
 The program should also print the response in a form of <p> "Message looks like spam. Please rephrase it" </p>.
 Help the user understand what he did wrong by listing all the suspicious words that should not show up in a comment. (list the words as an unordered list).
-
-### Create recent.html
- 
-You should have everything you need for the recent.html page! Make sure that header, footer, and main section are the same as in home.html.
-
-Recent.html should list all comments in a table as: the ordinal number, user's name, comment content, and date.
-
-- Use JavaScript to create table. Read comment data from comments.json file and create table rows for each array object in json.
-- If the post does not have any comments yet, print the "No comments to show" message.
-- You should also add some css style to make your table look modern.
-- Define funciton recentPage() to render the recent.html page in /recent route
   
 **Hints**:
 
-- You can manipulate the style of an element with document.querySelector('').style property of DOM.
-- Use strftime("%Y-%m-%d") metod to format the date.
-- Requested data are sent with POST method, so make sure you check  if request.method == "POST".
-- Use Flask flash() method to show the spam warning. (https://rb.gy/zxfrov).
-- Use fetch to read json file.
-- Use .createElement method to create table data and append() method to append the td to tr.
+- You can manipulate the style of an element with document.querySelector('').style property of DOM
+- Use strftime("%Y-%m-%d") metod to format the date
+- Requested data are sent with POST method, so make sure you check  if request.method == "POST"
+- Use Flask flash() method to show the spam warning. (https://rb.gy/zxfrov)
 
 ## Expected Results
 
@@ -131,6 +118,6 @@ The design of the blog should be modern, minimalistic, and responsive.
 There's tons of further ideas you could add to your blog if you have more time and want to make the project even cooler.
 
 * Provide users an option to delete the comment.
-* Enable user an option to choose their user image (avatar). This will require adding more avatar images to 'img' folder OR Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
+* Enable user an option to choose their user image (avatar). This will require adding nore avatar images to 'img' folder OR Make a random avatar choice - add more user avatar images and randomly assign them to a comment.
 * Make your own bonus task! :) Add a functionality that will demonstrate your skill of using url parameters and placeholders in Flask. Be creative.
   
