@@ -122,7 +122,7 @@ Recent.html should list all comments in a table as: the ordinal number, user's n
 
 ### Recent comments page
 
-![recent filter](https://github.com/nadjazaric/curriculum-hometask/blob/main/Recent%20comments.png?raw=true)
+![recent filter](https://raw.githubusercontent.com/nadjazaric/curriculum-hometask/main/Recent%20comments.png)
 
 The design of the blog should be modern, minimalistic, and responsive.
 
