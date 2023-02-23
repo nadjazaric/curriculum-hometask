@@ -93,11 +93,13 @@ Help the user understand what he did wrong by listing all the suspicious words t
 ### Create recent.html
  
 You should have everything you need for the recent.html page! Make sure that header, footer, and main section are the same as in home.html.
+
 Recent.html should list all comments in a table as: the ordinal number, user's name, comment content, and date.
 
 -Use JavaScript to create table. Read comment data from JSON file and create table rows for each array object in json.
 - If the post does not have any comments yet, print the "No comments to show" message.
 - You should also add some css style to make your table look modern.
+- Define funciton recentPage() to render the recent.html page in /recent route
   
 **Hints**:
 
